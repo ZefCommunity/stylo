@@ -1,0 +1,65 @@
+/* Reset the default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  background-color: #40217c;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+style the navigation bar */
+nav {
+  background-color: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: #40217c;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* change link colour when the mouse hovers over it */ */
+nav a:hover {
+  color: #a855f7;
+}
+
+/* style the main content area */ */
+main {
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+/* style each section */
+section {
+    background-color: #ffffff;
+    padding: 20px;  
+  margin-bottom: 26px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
